@@ -13,33 +13,51 @@ header h2{
 section{
     margin-top: 0px auto;
 }
+.cadAtendimento{   
+    margin-bottom: 10px;
+}
+.cadAtendimento  button { 
+    background-color: rgb(148, 173, 242);
+    font-size: 15px;
+    cursor: pointer;
+     border-radius: 5px;
+}
+
 .cadComunicacao{   
     margin-bottom: 10px;
 }
 .cadComunicacao  button{ 
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(148, 173, 242);
     font-size: 15px;
+    cursor: pointer;
+     border-radius: 5px;
 }
 .cadAtendimento2{   
     margin-bottom: 10px;
 }
 .cadAtendimento2  button{ 
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(148, 173, 242);
     font-size: 15px;
+    cursor: pointer;
+     border-radius: 5px;
 }
 .cadAtendimento3{   
     margin-bottom: 10px;
 }
 .cadAtendimento3  button{ 
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(148, 173, 242);
     font-size: 15px;
+    cursor: pointer;
+     border-radius: 5px;
 }
 .cadAtendimento4{   
     margin-bottom: 10px;
 }
 .cadAtendimento4  button{ 
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(148, 173, 242);
     font-size: 15px;
+    cursor: pointer;
+     border-radius: 5px;
 }
 label{
     float: left;
