@@ -21,7 +21,7 @@
 
 /* Links */
 a {
-  color: #000000;
+  color: #0e0e0e;
   text-decoration: none;
 }
 a:hover {
@@ -88,7 +88,7 @@ label {
    =========================== */
 header {
   background-color: #1a1a1a; /* mesma cor do footer */
-  color: #999;               /* mesma cor do texto do footer */
+  color: #000000;               /* mesma cor do texto do footer */
   padding: 20px;
   text-align: center;
   font-size: 1.8em;
@@ -105,21 +105,12 @@ section {
    Botões
    =========================== */
 button {
-  background-color: #1f1f1f;
-  color: #000000;
-  border: 1px solid #000000; /* Borda preta */
   padding: 10px 20px;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
-
-button:hover {
-  background-color: #333333;
-  /* Alternativa anterior comentada: #050505 */
-}
-
 
 button:active {
   transform: scale(0.96);
@@ -131,13 +122,13 @@ button:active {
 .cadAtendimento2 button,
 .cadAtendimento3 button,
 .cadAtendimento4 button {
-  background-color: #928d8d;
+  background-color: #727171;
   font-size: 15px;
   cursor: pointer;
   border-radius: 5px;
   border: none;
   padding: 10px 20px;
-  color: #000;
+  color: #000000;
   transition: background-color 0.3s;
 }
 
