@@ -1,72 +1,177 @@
-/*config Gerais*/
-header{
-    height: 70px; 
-    background-color:rgb(0, 0, 0);
-}
-header h2{
-    background-color: #4682B4;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-section{
-    margin-top: 0px auto;
-}
-.cadAtendimento{   
-    margin-bottom: 10px;
-}
-.cadAtendimento  button { 
-    background-color: rgb(148, 173, 242);
-    font-size: 15px;
-    cursor: pointer;
-     border-radius: 5px;
+/* ===========================
+   Estilos Gerais e Reset
+   =========================== */
+.topo {
+  margin-top: 20px; /* opcional */
 }
 
-.cadComunicacao{   
-    margin-bottom: 10px;
+.topo img {
+  max-width: 10%;
+  height: auto;
+  border-radius: 15px; /* aqui define o arredondamento */
 }
-.cadComunicacao  button{ 
-    background-color: rgb(148, 173, 242);
-    font-size: 15px;
-    cursor: pointer;
-     border-radius: 5px;
+
+  body {
+  background-color: #121212;
+  color: #969696;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.cadAtendimento2{   
-    margin-bottom: 10px;
+
+/* Links */
+a {
+  color: #000000;
+  text-decoration: none;
 }
-.cadAtendimento2  button{ 
-    background-color: rgb(148, 173, 242);
-    font-size: 15px;
-    cursor: pointer;
-     border-radius: 5px;
+a:hover {
+  color: #252525;
 }
-.cadAtendimento3{   
-    margin-bottom: 10px;
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+  color: #999;
 }
-.cadAtendimento3  button{ 
-    background-color: rgb(148, 173, 242);
-    font-size: 15px;
-    cursor: pointer;
-     border-radius: 5px;
+
+/* Parágrafos */
+p {
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000; /* unificado para modo escuro */
+  margin-bottom: 16px;
 }
-.cadAtendimento4{   
-    margin-bottom: 10px;
+
+/* ===========================
+   Formulários e Fieldsets
+   =========================== */ 
+fieldset {
+  border: 2px solid #020202;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #969696;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
 }
-.cadAtendimento4  button{ 
-    background-color: rgb(148, 173, 242);
-    font-size: 15px;
-    cursor: pointer;
-     border-radius: 5px;
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #000000;
+  background-color: #8a7f7f;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-left: 10px;
 }
-label{
-    float: left;
+
+input, textarea, select {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 4px;
 }
-footer{
-    background-color: #4682B4;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #00bfff;
+}
+
+label {
+  float: left;
+}
+
+/* ===========================
+   Cabeçalho e Seções
+   =========================== */
+header {
+  background-color: #1a1a1a; /* mesma cor do footer */
+  color: #999;               /* mesma cor do texto do footer */
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section {
+  margin-top: 0 auto;
+}
+
+/* ===========================
+   Botões
+   =========================== */
+button {
+  background-color: #1f1f1f;
+  color: #000000;
+  border: 1px solid #000000; /* Borda preta */
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #333333;
+  /* Alternativa anterior comentada: #050505 */
+}
+
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* Estilos específicos para botões em classes cadAtendimento, cadComunicacao, etc. */
+.cadAtendimento button,
+.cadComunicacao button,
+.cadAtendimento2 button,
+.cadAtendimento3 button,
+.cadAtendimento4 button {
+  background-color: #928d8d;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+.cadAtendimento button:hover,
+.cadComunicacao button:hover,
+.cadAtendimento2 button:hover,
+.cadAtendimento3 button:hover,
+.cadAtendimento4 button:hover {
+  background-color: #6f6c6c;
+}
+
+/* ===========================
+   Rodapé
+   =========================== */
+footer {
+  background-color: #1a1a1a;
+  color: #999;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================
+   Classes adicionais
+   =========================== */
+.cadAtendimento,
+.cadComunicacao,
+.cadAtendimento2,
+.cadAtendimento3,
+.cadAtendimento4 {
+  margin-bottom: 10px;
 }
